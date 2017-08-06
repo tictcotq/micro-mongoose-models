@@ -4,7 +4,6 @@
 Return [Mongoose](http://mongoosejs.com/) models right from your [zeit/micro](https://github.com/zeit/micro) microservices.  
 Models get converted to plain objects with model's `.toObject` method.
 
-## Usage
 #### Before
 ```js
 const handler = (req, res) => {
@@ -29,7 +28,7 @@ module.exports = mongooseModels(handler)
 mongoose.Promise = global.Promise
 ```
 
-##Install
+## Install
 ```sh
 npm install --save micro-mongoose-models
 # or
